@@ -6,10 +6,7 @@
 
 ## Usage
 
-```shell
-npm i
-npm run build # generates dist/es5-shim.min.js
-```
+TBD
 
 
 ## Advantage
@@ -22,6 +19,16 @@ Rewrites the whole file of `es5-shim/es5-shim.js` with CommonJS.
 
 * *Minified*: 14,315 byte / 13,893 byte (3% saved!)
 * *Gzipped*: 5,272 byte / 4,336 byte (**17.8%** saved!)
+
+
+## Development
+
+```shell
+git clone ...
+npm i
+npm run build # generates dist/es5-shim.js
+NODE_ENV=production npm run build # generates dist/es5-shim.min.js
+```
 
 
 ## Contributing
