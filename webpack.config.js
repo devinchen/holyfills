@@ -1,6 +1,8 @@
 "use strict";
 var webpack = require("webpack");
 
+var IS_PRODUCTION = "production" === process.env.NODE_ENV;
+
 var IS_ARRAY_SPLICE_WORKS_AS_EXPECTED_FOR_NOOP_EMPTY_ARRAY = false,
     IS_ARRAY_SPLICE_WORKS_AS_EXPECTED_FOR_EMPTY_OBJECT = false,
     IS_ARRAY_FOREACH_WORKS_AS_EXPECTED = false,
@@ -35,11 +37,11 @@ var IS_ARRAY_SPLICE_WORKS_AS_EXPECTED_FOR_NOOP_EMPTY_ARRAY = false,
     IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED = false,
     VAR_PLACEHOLDER;
 
-module.exports = {
+var webpackConfig = module.exports = {
   entry: "./lib/index.js",
   output: {
     path: __dirname + "/dist",
-    filename: "es5-shim.min.js"
+    filename: "es5-shim" + (IS_PRODUCTION ? ".min" : "") + ".js"
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -88,3 +90,9 @@ module.exports = {
     })
   ]
 };
+
+if (IS_PRODUCTION) {
+  webpackConfig.plugins.push(
+    new webpack.optimize.UglifyJsPlugin()
+  );
+}

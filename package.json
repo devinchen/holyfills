@@ -4,7 +4,7 @@
   "description": "No more \"Holy Sxxt!!\" when writting ES5/ES6",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack",
     "test": "mocha --require should",
     "dev": "mocha --require should --watch"
   },
