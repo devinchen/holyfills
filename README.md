@@ -1,4 +1,4 @@
-# holyfills [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][gemnasium-image]][gemnasium-url] [![Gitter][gitter-image]][gitter-url]
+# holyfills [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][codeclimate-coverage-image]][codeclimate-coverage-url] [![Dependencies][gemnasium-image]][gemnasium-url] [![Gitter][gitter-image]][gitter-url]
 > No more "Holy Sxxt!!" when writting ES5/ES6
 
 [![Version][npm-image]][npm-url]
@@ -54,8 +54,8 @@ NODE_ENV=production npm run build # generates dist/es5-shim.min.js
 [travis-url]: https://travis-ci.org/tomchentw/holyfills
 [codeclimate-image]: https://img.shields.io/codeclimate/github/tomchentw/holyfills.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/tomchentw/holyfills
-[coveralls-image]: https://img.shields.io/coveralls/tomchentw/holyfills.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/tomchentw/holyfills
+[codeclimate-coverage-image]: https://img.shields.io/codeclimate/coverage/github/tomchentw/holyfills.svg?style=flat-square
+[codeclimate-coverage-url]: https://codeclimate.com/github/tomchentw/holyfills
 [gemnasium-image]: https://img.shields.io/gemnasium/tomchentw/holyfills.svg?style=flat-square
 [gemnasium-url]: https://gemnasium.com/tomchentw/holyfills
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
