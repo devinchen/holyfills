@@ -45,6 +45,7 @@ describe("holyfills", function() {
     global.IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED = false;
     global.HAS_DATE_NOW = false;
   });
+  require("mocha-jshint")(["./lib/"]);
   require("./helpers");
   require("./array");
   require("./function");
