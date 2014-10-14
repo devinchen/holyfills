@@ -23,4 +23,9 @@ describe("prototype.constructor", function () {
     (new Date("2034-03-01T00:00:00.000Z") -
           new Date("2034-02-27T23:59:59.999Z")).should.equal(86400001);     //86400001      86400001       86400001       86400001      1
   });
+
+  it("should support extended years", function () {
+    (+new Date("+275760-09-13T00:00:00.000Z")).should.equal(8.64e15);
+    (+new Date("-000001-01-01T00:00:00Z")).should.equal(-62198755200000);
+  });
 });
