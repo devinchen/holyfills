@@ -2,7 +2,7 @@
   "name": "holyfills",
   "version": "1.0.1",
   "description": "No more \"Holy Sxxt!!\" when writting ES5/ES6",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "webpack",
     "test": "mocha --require should",
