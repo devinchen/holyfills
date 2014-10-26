@@ -1,6 +1,6 @@
 [submodule "es5-shim"]
 	path = es5-shim
-	url = https://github.com/tomchentw/es5-shim.git
+	url = https://github.com/holyfills/es5-shim.git
 [submodule "es6-shim"]
 	path = es6-shim
-	url = https://github.com/tomchentw/es6-shim.git
+	url = https://github.com/holyfills/es6-shim.git
