@@ -46,6 +46,7 @@ describe("holyfills", function() {
     global.HAS_DATE_NOW = false;
   });
   require("mocha-jshint")(["./lib/"]);
+  require("mocha-jscs")(["./lib/"]);
   require("./helpers");
   require("./array");
   require("./function");
