@@ -44,6 +44,7 @@ describe("holyfills", function() {
     global.HAS_DATE_TO_JSON = false;
     global.IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED = false;
     global.HAS_DATE_NOW = false;
+    global.HAS_ATOB = false;
     global.HAS_BTOA = false;
     global.HAS_ARRAY_OF = false;
   });

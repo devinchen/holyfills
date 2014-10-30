@@ -87,6 +87,7 @@ var webpackConfig = module.exports = {
       HAS_DATE_TO_JSON: IS_DATE_TO_JSON_WORKS_AS_EXPECTED && HAS_DATE_TO_JSON,
       IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED: IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED,
       HAS_DATE_NOW: false,
+      HAS_ATOB: false,
       HAS_BTOA: false,
       HAS_ARRAY_OF: false,
     })
