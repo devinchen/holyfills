@@ -154,7 +154,8 @@
     "IS_DATE_TO_JSON_WORKS_AS_EXPECTED",
     "HAS_DATE_TO_JSON",
     "IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED",
-    "HAS_DATE_NOW"
+    "HAS_DATE_NOW",
+    "HAS_BTOA"
   ],
   "indent": 2         // Specify indentation spacing
 }
