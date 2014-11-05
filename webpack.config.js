@@ -88,6 +88,7 @@ var webpackConfig = module.exports = {
       IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED: IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED,
       HAS_DATE_NOW: false,
       HAS_BTOA: false,
+      HAS_ARRAY_OF: false,
     })
   ]
 };
